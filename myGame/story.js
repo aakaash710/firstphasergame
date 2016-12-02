@@ -14,7 +14,7 @@ game_state.story.prototype = {
 
     create: function() {
         game.add.sprite(0, 0, 'sky');
-        this.text = game.add.text(200, 200, 'Welcome to Pacman world \n try to collect all the stars \n you have to get 150 points \n wait  seconds or press the up arrow key \n to continue ', {
+        this.text = game.add.text(200, 200, 'Welcome to Pacman world \n try to collect all the stars \n you have to get 150 points \n wait 4 seconds or press the up arrow key \n to continue ', {
             fontSize: '32px',
             fill: 'green'
         });
