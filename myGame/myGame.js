@@ -103,4 +103,3 @@ collectStar: function(player , star) {
 }
 
 game.state.add('main', game_state.main);
-game.state.start('main');
